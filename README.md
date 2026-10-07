@@ -23,3 +23,9 @@ Battles use a seeded random generator. Reset keeps the seed; a new brawl changes
 ## Validation
 
 40 full-roster battles and all 66 distinct duels finished; health bounds and deterministic replays passed. Interface checks covered selection, pause/resume, speed, victory, reset and rules. Browser layout has not yet been checked on every device.
+
+## Combat effects update
+
+Skills now use distinct actions: crossing sword dashes, blink combos, delayed ice spikes, question-mark lightning, shield knockback, fork mines, ghost portals, keyboard ground slams, marked anvil drops, healing runes and poison vines, counter-blade spins, and delayed fire eruptions. Ordinary ranged attacks have character-specific visuals instead of generic bullets. Windups use marked impact areas, so moving rivals can escape ice, anvils and fire. Screen shake respects reduced-motion preferences.
+
+Validation: all 66 duels and 20 full-roster battles finished with bounded health; a simulated interface battle exercised the canvas effects and reset control.
